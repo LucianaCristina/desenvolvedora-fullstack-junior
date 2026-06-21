@@ -1,0 +1,16 @@
+// Arrow Functions
+
+const saudacao = (nome) => {
+  return `Olá, ${nome}!`;
+};
+
+console.log(saudacao("Luciana"));
+
+const somar = (a, b) => a + b;
+
+console.log("Soma:", somar(12, 8));
+
+const calcularDobro = (numero) => numero * 2;
+
+console.log("Dobro:", calcularDobro(7));
+
