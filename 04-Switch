@@ -1,0 +1,16 @@
+// Switch
+const perfil = "admin";
+
+switch (perfil) {
+  case "admin":
+    console.log("Acesso total ao sistema.");
+    break;
+  case "editor":
+    console.log("Pode editar conteúdos.");
+    break;
+  case "usuario":
+    console.log("Pode visualizar conteúdos.");
+    break;
+  default:
+    console.log("Perfil não reconhecido.");
+}
