@@ -1,0 +1,24 @@
+// Arrays
+
+const tecnologias = ["HTML", "CSS", "JavaScript", "React"];
+
+console.log(tecnologias);
+
+// Acessando itens
+console.log("Primeira tecnologia:", tecnologias[0]);
+console.log("Última tecnologia:", tecnologias[tecnologias.length - 1]);
+
+// Adicionando item
+tecnologias.push("Node.js");
+
+console.log("Após adicionar Node.js:", tecnologias);
+
+// Removendo último item
+tecnologias.pop();
+
+console.log("Após remover último item:", tecnologias);
+
+// Percorrendo array
+for (let i = 0; i < tecnologias.length; i++) {
+  console.log(`Tecnologia ${i + 1}: ${tecnologias[i]}`);
+}
