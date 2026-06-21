@@ -1,0 +1,14 @@
+// If, Else e operador ternário
+
+const idade = 17;
+
+if (idade >= 18) {
+  console.log("Você é maior de idade.");
+} else {
+  console.log("Você é menor de idade.");
+}
+
+// Operador ternário
+const resultado = idade >= 18 ? "Pode entrar" : "Não pode entrar";
+
+console.log(resultado);
