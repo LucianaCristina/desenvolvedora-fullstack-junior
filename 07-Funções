@@ -1,0 +1,21 @@
+// Funções
+
+function saudacao(nome) {
+  return `Olá, ${nome}! Seja bem-vinda ao JavaScript.`;
+}
+
+console.log(saudacao("Luciana"));
+
+function somar(a, b) {
+  return a + b;
+}
+
+console.log("Soma:", somar(10, 5));
+
+function calcularMedia(nota1, nota2) {
+  return (nota1 + nota2) / 2;
+}
+
+const media = calcularMedia(8, 9);
+
+console.log("Média:", media);
