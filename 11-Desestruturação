@@ -1,0 +1,30 @@
+// Desestruturação
+
+const pessoa = {
+  nome: "Luciana",
+  idade: 32,
+  profissao: "Estudante de ADS"
+};
+
+// Desestruturação de objeto
+const { nome, idade, profissao } = pessoa;
+
+console.log(nome);
+console.log(idade);
+console.log(profissao);
+
+// Desestruturação de array
+const linguagens = ["JavaScript", "TypeScript", "Python"];
+
+const [primeira, segunda, terceira] = linguagens;
+
+console.log("Primeira linguagem:", primeira);
+console.log("Segunda linguagem:", segunda);
+console.log("Terceira linguagem:", terceira);
+
+// Desestruturação em função
+function mostrarPessoa({ nome, profissao }) {
+  console.log(`${nome} atua como ${profissao}.`);
+}
+
+mostrarPessoa(pessoa);
