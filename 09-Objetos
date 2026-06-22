@@ -1,0 +1,23 @@
+// Objetos
+
+const desenvolvedora = {
+  nome: "Luciana",
+  idade: 32,
+  area: "Desenvolvimento Web",
+  estudando: true
+};
+
+console.log(desenvolvedora);
+
+console.log("Nome:", desenvolvedora.nome);
+console.log("Área:", desenvolvedora.area);
+
+// Adicionando nova propriedade
+desenvolvedora.linguagemFavorita = "JavaScript";
+
+console.log(desenvolvedora);
+
+// Alterando propriedade
+desenvolvedora.area = "Full Stack Júnior";
+
+console.log("Área atualizada:", desenvolvedora.area);
