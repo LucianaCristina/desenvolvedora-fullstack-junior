@@ -1,0 +1,19 @@
+// Métodos
+
+const usuario = {
+  nome: "Luciana",
+  idade: 32,
+
+  apresentar: function () {
+    return `Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`;
+  },
+
+  fazerAniversario: function () {
+    this.idade++;
+    return `Agora tenho ${this.idade} anos.`;
+  }
+};
+
+console.log(usuario.apresentar());
+console.log(usuario.fazerAniversario());
+
