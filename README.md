@@ -2,7 +2,7 @@
 
 ## Desenvolvedora Full Stack em Formação | Análise e Desenvolvimento de Sistemas
 
-📍 Goiânia - GO, Brasil
+📍 Jataí - GO, Brasil
 
 🎓 Estudante de Análise e Desenvolvimento de Sistemas (ADS)
 
