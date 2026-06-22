@@ -1,0 +1,35 @@
+// Spread e Rest
+
+// Spread em arrays
+const frontend = ["HTML", "CSS", "JavaScript"];
+const backend = ["Node.js", "Express"];
+
+const fullstack = [...frontend, ...backend];
+
+console.log(fullstack);
+
+// Spread em objetos
+const usuario = {
+  nome: "Luciana",
+  idade: 32
+};
+
+const usuarioCompleto = {
+  ...usuario,
+  area: "Desenvolvimento Full Stack"
+};
+
+console.log(usuarioCompleto);
+
+// Rest em função
+function somarTodos(...numeros) {
+  let soma = 0;
+
+  for (let numero of numeros) {
+    soma += numero;
+  }
+
+  return soma;
+}
+
+console.log("Soma total:", somarTodos(1, 2, 3, 4, 5));
